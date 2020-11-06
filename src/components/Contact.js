@@ -11,6 +11,14 @@ const footerimg_style = {
     transform:'translate(0, -50%)'
   };
 
+const contact_img = {
+    width:'2em'
+};
+
+const ul_unpadded = {
+    padding:'0'
+};
+
 class Contact extends Component {
     state = {  }
     render() { 
@@ -24,11 +32,11 @@ class Contact extends Component {
                 Let’s empower your data<br></br>
                 <span className='amazing-color'>together</span></h1>
                     <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
-                <ul>
+                <ul style={ul_unpadded}>
                     {data.social.map((item, index)=>(
                         <li key={index}>
                             <a target='_blank' rel="noopener noreferrer" href={item.url}>
-                                {item.img_src.length > 0 && <img src={item.img_src} width="30px"/>}
+                                {item.img_src.length > 0 && <img src={item.img_src} style={contact_img}/>}
                             </a>
                         </li>
                     ))}   

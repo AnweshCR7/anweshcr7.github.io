@@ -65,13 +65,13 @@ export default
             // Add Or Remove The Link Accordingly
             {   name:'Github',
                 url:'https://github.com/anweshcr7',
-                img_src: ''
+                img_src: 'https://raw.githubusercontent.com/AnweshCR7/anweshcr7.github.io/9d177e69ae9b7cc0e4d8869e57500890293098bd/src/assets/gihub.svg'
             },
 
             {
                 name: 'LinkedIn',
                 url: 'https://www.linkedin.com/in/anwesh-marwade-87172211b',
-                img_src: "https://raw.githubusercontent.com/AnweshCR7/AnweshCR7/07de130e9a90cc48419569a6fde7383d132fe170/assets/linkedin.svg"
+                img_src: "https://raw.githubusercontent.com/AnweshCR7/anweshcr7.github.io/e30e0126fd860292e04f0df34cd7a188084fe1d5/src/assets/linkedin.svg"
             }
             // {
             //     name: 'Instagram',
