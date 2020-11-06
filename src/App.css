@@ -196,7 +196,7 @@ height: 30em;
 .footer{
   position: relative;
   top:2em;
-  padding: 1em;
+  padding: 1em 1em 1em 0;
   color:whitesmoke;
 }
 .footer a{

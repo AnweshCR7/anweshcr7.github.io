@@ -64,11 +64,14 @@ export default
         social: [
             // Add Or Remove The Link Accordingly
             {   name:'Github',
-                url:'https://github.com/anweshcr7'},
+                url:'https://github.com/anweshcr7',
+                img_src: ''
+            },
 
             {
                 name: 'LinkedIn',
-                url: 'www.linkedin.com/in/anwesh-marwade-87172211b'
+                url: 'https://www.linkedin.com/in/anwesh-marwade-87172211b',
+                img_src: "https://raw.githubusercontent.com/AnweshCR7/AnweshCR7/07de130e9a90cc48419569a6fde7383d132fe170/assets/linkedin.svg"
             }
             // {
             //     name: 'Instagram',
