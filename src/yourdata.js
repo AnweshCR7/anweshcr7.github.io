@@ -24,16 +24,17 @@ export default
              service:'Computer Vision Intern @BeyondSports', // Add Your Service Type Here
              description:'Modelled the likelihood of scoring a goal (in Football) using sequential models that learn from a sequence of event frames leading upto a goal. This project was based on training sequence based models like LSTMs and Conditional Random Fields (beginning with simple classifiers as a PoC) to predict the Expected Goal Value as a measure of the chance of actually scoring a goal.', // Add Your Service Type Here
             //Project Image - Add Your Project Image Here
-             imageSrc:"https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+             imageSrc:"https://github.com/AnweshCR7/anweshcr7.github.io/blob/dev-react/src/assets/egv.png?raw=true",
              //Project URL - Add Your Project Url Here
              url:'https://www.beyondsports.nl'
             },
             {
                 id: 2,
-                title: 'Project Two',
-                service: 'Website Development',
+                title: 'Auto Code Completion',
+                service: 'ML for Software Engineering',
+                description:'Developed a code completion system for Machine Learning for Software Engineering course at TU Delft (IN4334). Built the system from scratch based on an encoder-decoder architecture involving LSTMs that enhanced using the attention mechanism.', // Add Your Service Type Here
                 imageSrc: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://chetanverma.com/'
+                url: 'https://github.com/AnweshCR7'
             },
             { 
                 id: 3,

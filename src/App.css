@@ -157,8 +157,8 @@ li .link:hover{
 }
 
 .project img{
-width: 30em;  
-height: 30em;
+  max-width:auto;
+  max-height:30em;
 }
 .contact{
   position: relative;
