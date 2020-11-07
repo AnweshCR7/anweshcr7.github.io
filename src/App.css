@@ -16,8 +16,6 @@ body{
   text-align: center;
 }
 
-
-
 .App-header {
   position: relative;
   min-height: 100vh;
@@ -143,6 +141,7 @@ li .link:hover{
   flex-direction: column;
   left:15em;
   top:8em;
+  margin-right: 20em;
   align-items: flex-start;
   color:whitesmoke
 }
@@ -151,7 +150,7 @@ li .link:hover{
   font-size: 5em;
   text-align: left;
 }
-.work .work-content{
+.work .work-wrapper{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-gap: 2em;
@@ -218,6 +217,19 @@ padding: 1em;
 margin-right: 0em;
 }
 
+.App-header {
+  position: relative;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  color: whitesmoke;
+  top:4em;
+
+}
+
 .heading-background{
   display: none;
 }
@@ -227,8 +239,15 @@ nav{
 .header-title{
   font-size: 3em;
   text-align: left;
-  top:1em;
+  top:3em;
   left:1em;
+}
+.name {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5em;
+  text-align: left;
+  top:2em;
 }
 .about{position: relative;
       display: flex;
@@ -250,12 +269,18 @@ nav{
   left:2em;
   top:2em;
   align-items: flex-start;
+  
 }
-.work .work-content{
+.work .work-wrapper{
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 5em;
 }
+
+.work .work-wrapper .project .project-text {
+  font-size: 2em;
+}
+
 .project img{
 width: 45em;  
 height: 45em;
@@ -301,13 +326,33 @@ padding: 1em;
 margin-right: 0em;
 }
 
+.App-header {
+  position: relative;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  color: whitesmoke;
+  top:4em;
+}
+
+.name {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5em;
+  text-align: left;
+  top:2em;
+}
+
 nav{
   display: none;
 }
 .header-title{
   font-size: 3.6em;
   text-align: left;
-  top:1em;
+  top:3em;
   left:1em;
 }
 .about{position: relative;
@@ -332,12 +377,17 @@ nav{
   top:4em;
   align-items: flex-start;
 }
-.work .work-content{
+.work .work-wrapper{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5em;
   color: whitesmoke;
 }
+
+.work .work-wrapper .project .project-text {
+  font-size: 2em;
+}
+
 .project img{
 width: 30em;  
 height: 30em;

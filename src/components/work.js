@@ -9,12 +9,13 @@ class Work extends Component {
         return (<div>
         <h1 className='heading'>
         <Fade bottom>Work.</Fade></h1>
-        <div className='work-content'>
+        <div className='work-wrapper'>
                 {data.projects.map((project)=>(
                     <Project key={project.id}
                              title = {project.title}
                              service = {project.service}
                              imageSrc = {project.imageSrc}
+                             desc = {project.description}
                              url={project.url}
                      ></Project>
                 ))}

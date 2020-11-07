@@ -20,12 +20,13 @@ export default
        projects:[
            {
             id: 1,
-            title:'Project One', //Project Title - Add Your Project Title Here
-             service:'UI/UX Design', // Add Your Service Type Here
+            title:'Expected Goal Value', //Project Title - Add Your Project Title Here
+             service:'Computer Vision Intern @BeyondSports', // Add Your Service Type Here
+             description:'Modelled the likelihood of scoring a goal (in Football) using sequential models that learn from a sequence of event frames leading upto a goal. This project was based on training sequence based models like LSTMs and Conditional Random Fields (beginning with simple classifiers as a PoC) to predict the Expected Goal Value as a measure of the chance of actually scoring a goal.', // Add Your Service Type Here
             //Project Image - Add Your Project Image Here
              imageSrc:"https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
              //Project URL - Add Your Project Url Here
-             url:'http://chetanverma.com/'
+             url:'https://www.beyondsports.nl'
             },
             {
                 id: 2,
