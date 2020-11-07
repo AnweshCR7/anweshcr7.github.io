@@ -33,7 +33,7 @@ export default
                 title: 'Auto Code Completion',
                 service: 'ML for Software Engineering',
                 description:'Developed a code completion system for Machine Learning for Software Engineering course at TU Delft (IN4334). Built the system from scratch based on an encoder-decoder architecture involving LSTMs that enhanced using the attention mechanism.', // Add Your Service Type Here
-                imageSrc: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+                imageSrc: "https://github.com/AnweshCR7/anweshcr7.github.io/blob/dev-react/src/assets/codecomplete.png?raw=true",
                 url: 'https://github.com/AnweshCR7'
             },
             { 
