@@ -16,7 +16,12 @@ const contact_img = {
 };
 
 const ul_unpadded = {
-    padding:'0'
+    padding:'0',
+    marginTop:'3em'
+};
+
+const li_inline = {
+    display:'inline'
 };
 
 class Contact extends Component {
@@ -34,7 +39,7 @@ class Contact extends Component {
                     <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
                 <ul style={ul_unpadded}>
                     {data.social.map((item, index)=>(
-                        <li key={index}>
+                        <li key={index} style={li_inline}>
                             <a target='_blank' rel="noopener noreferrer" href={item.url}>
                                 {item.img_src.length > 0 && <img src={item.img_src} style={contact_img}/>}
                             </a>
