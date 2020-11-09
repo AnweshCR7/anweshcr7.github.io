@@ -165,7 +165,7 @@ li .link:hover{
 .contact{
   position: relative;
   top:20em;
-  left:15em;
+  margin: 0 10em;
   text-align: left;
   color: whitesmoke;
 }

@@ -38,16 +38,18 @@ export default
             },
             { 
                 id: 3,
-                title: 'Project Three',
-                service: 'Web App',
-                imageSrc: "https://images.unsplash.com/photo-1511500118080-275313ec90a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://chetanverma.com/'
+                title: 'ZoloStays',
+                service: 'Software Developer',
+                description: 'Worked as a full stack developer, responsible for building and maintaining a scalable ERP solution for the start-up, using React and Node.js',
+                imageSrc: "https://github.com/AnweshCR7/anweshcr7.github.io/blob/dev-react/src/assets/zelo.png?raw=true",
+                url: 'https://www.linkedin.com'
             },
             {
                 id: 4,
-                title: 'Project Four',
-                service: 'Branding',
-                imageSrc: "https://images.unsplash.com/photo-1558452919-08ae4aea8e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+                title: 'General Electric Digital',
+                service: 'Software Engineer',
+                description: "Joined GE as a fresher and worked as a Software Development Specialist at GE Digital, Bengaluru for almost 2 years starting 2017",
+                imageSrc: "https://github.com/AnweshCR7/anweshcr7.github.io/blob/dev-react/src/assets/gr_digital.png?raw=true",
                 url: 'http://chetanverma.com/'
            }
 
