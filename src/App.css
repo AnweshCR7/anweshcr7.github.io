@@ -10,7 +10,9 @@ body{
   overflow-x: hidden;
   z-index: 1;
 }
-
+body::-webkit-scrollbar {
+  display: none;
+}
 
 .App {
   text-align: center;
@@ -115,10 +117,10 @@ li .link:hover{
 .about{
   display: flex;
   flex-direction: row;
+  margin: 0 10em;
 }
 .about-content{
   position: relative;
-  left:15em;
 }
 .about-content h1{
   font-family: 'Montserrat', sans-serif;
@@ -134,14 +136,14 @@ li .link:hover{
 }
 .about img{
   margin-left: 5em;
+  max-width: 100%;
 }
 .work{
   position: relative;
   display: flex;
   flex-direction: column;
-  left:15em;
   top:8em;
-  margin-right: 20em;
+  margin: 0 10em;
   align-items: flex-start;
   color:whitesmoke
 }
