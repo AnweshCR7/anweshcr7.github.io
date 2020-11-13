@@ -11,9 +11,12 @@ export default
     ],
         contactEmail:'anweshcr7@gmail.com',
         // About Text
-        abouttextcaption: "A curious developer currently pursuing masters in data science. Strive towards writing purposeful code with an intention to contribute to things that matter.",
-        abouttext:"I am a highly motivated learner with a predisposition towards exploring new fields and technologies. Currently working towards a potential career at the intersection of Sports and Data Science, specifically targetting Computer Vision and Machine Learning.",
-        aboutImage:'https://lh3.googleusercontent.com/pw/ACtC-3cQDqfBS_GopuBww2NWpg-XunQjHl2EWlNBuqoqf0l-BwDkpaFDl3ZUzoesiZprtTq4fvPR13jqL9gTYO20dcC9Y5xhKL9C8s5KQnJEwl7KNCUCmJ0t7k_eorRY6vWuaORO6KnXkV3qm9zPym9FVw4Flg=w779-h969-no',
+        phraseline:"https://github.com/AnweshCR7/anweshcr7.github.io/blob/dev-react/src/assets/about_quote_transparent.gif?raw=true",
+        abouttextcaption: "A curious developer currently pursuing masters in Data Science. Strive towards writing purposeful code with an intention to contribute to important causes.",
+        abouttext: "Currently working on my final year thesis with the Computer Vision lab at TU Delft, investigating the role of convolutional networks in contactles (remote) photoplethysmography or r-PPG.",
+        abouttextGeneral:"I am a highly motivated learner with a predisposition towards exploring new fields and technologies. Contemplating a potential career at the intersection of Sports and Data Science, specifically pertaining to Computer Vision and Machine Learning. Started out as a Software Engineer and moved to Full Stack Web Development having put myself in a variety of roles before pursuing a masters degree.",
+        abouttextPersonal:"When the day is over, I am a hardcore football fan (read Manchester United), a fitness enthusiast and am known to show an unusual amount love for the thriller/horror genre. I like meeting new people as it allows me to gain different perspectives at life. Learnt to appreciate small-talk although I've been told, I fail miserably at making good jokes. Passionate about coding for a cause and ideating interesting projects which I would like to pursue part time. Always up for a 5K run!",
+        aboutImage:'https://github.com/AnweshCR7/anweshcr7.github.io/blob/dev-react/src/assets/profile_img.jpg?raw=true',
        
        ShowAboutImage:true,
        // Change Projects Here 
