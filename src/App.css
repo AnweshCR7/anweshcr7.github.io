@@ -258,12 +258,13 @@ nav{
 .about{position: relative;
       display: flex;
       top:-30em;
+      margin: 0 8em;
 }
 .about img{
   display: none
 }
 .about-content{
-  left:5em;
+  /* left:5em; */
 }
 .about-content p{
   font-size: 3.5em;
@@ -272,7 +273,7 @@ nav{
 }
 
 .work{
-  left:5em;
+  /* left:5em; */
   top:2em;
   align-items: flex-start;
   
@@ -294,7 +295,7 @@ height: 45em;
 
 .contact{
   top:15em;
-  left:5em;
+  /* left:5em; */
 }
 .contact h1{
   font-size: 4em;
@@ -363,15 +364,17 @@ nav{
   top:3em;
   left:1em;
 }
-.about{position: relative;
-      display: flex;
-      top:-10em;
+.about{
+  position: relative;
+  display: flex;
+  top:-10em;
+  margin: 0 12em;
 }
 .about img{
   display: none
 }
 .about-content{
-  left:6em;
+  /* left:6em; */
 }
 .about-content p{
   font-size: 3.5em;
@@ -381,7 +384,7 @@ nav{
 
 .work{
   color:whitesmoke;
-  left:6em;
+  /* left:6em; */
   top:4em;
   align-items: flex-start;
 }
@@ -403,7 +406,7 @@ height: 30em;
 
 .contact{
   top:15em;
-  left:6em;
+  /* left:6em; */
 }
 .contact h1{
   font-size: 4em;
