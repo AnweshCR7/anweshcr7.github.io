@@ -83,7 +83,7 @@ export default
             {
                 name: 'Medium',
                 url: 'https://medium.com/@anweshcr7',
-                img_src: ''
+                img_src: 'https://raw.githubusercontent.com/AnweshCR7/anweshcr7.github.io/e3b8419288a4ec74a925e6217782482f54f2f38d/src/assets/medium.svg'
             }
 
         ]
