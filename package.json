@@ -7,12 +7,18 @@
     "presets": [
       "@babel/preset-env",
       "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
     ]
   },
   "scripts": {
-    "start": "webpack-dev-server --open",
+    "start": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "create": "webpack"
+    "create": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -29,17 +35,24 @@
   "bugs": {
     "url": "https://github.com/AnweshCR7/anweshcr7.github.io/issues"
   },
-  "homepage": "https://github.com/AnweshCR7/anweshcr7.github.io#readme",
+  "homepage": "https://anweshcr7.github.io",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.1",
     "babel-loader": "^8.1.0",
     "css-loader": "^5.0.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.5.0",
     "style-loader": "^2.0.0",
     "webpack": "^5.4.0",
     "webpack-cli": "^4.1.0",
     "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-reveal": "^1.2.2",
+    "react-scroll": "^1.8.1"
   }
 }
