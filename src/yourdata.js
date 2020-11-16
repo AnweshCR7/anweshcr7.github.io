@@ -22,14 +22,14 @@ export default
        // Change Projects Here 
        projects:[
            {
-            id: 1,
-            title:'Expected Goal Value', //Project Title - Add Your Project Title Here
-             service:'Computer Vision Intern @BeyondSports', // Add Your Service Type Here
-             description:'Modelled the likelihood of scoring a goal (in Football) using sequential models that learn from a sequence of event frames leading upto a goal. This project was based on training sequence based models like LSTMs and Conditional Random Fields (beginning with simple classifiers as a PoC) to predict the Expected Goal Value as a measure of the chance of actually scoring a goal.', // Add Your Service Type Here
-            //Project Image - Add Your Project Image Here
-             imageSrc:"https://github.com/AnweshCR7/anweshcr7.github.io/blob/dev-react/src/assets/egv.png?raw=true",
-             //Project URL - Add Your Project Url Here
-             url:'https://www.beyondsports.nl'
+                id: 1,
+                title:'Expected Goal Value', //Project Title - Add Your Project Title Here
+                service:'Computer Vision Intern @BeyondSports', // Add Your Service Type Here
+                description:'Modelled the likelihood of scoring a goal (in Football) using sequential models that learn from a sequence of event frames leading upto a goal. This project was based on training sequence based models like LSTMs and Conditional Random Fields (beginning with simple classifiers as a PoC) to predict the Expected Goal Value as a measure of the chance of actually scoring a goal.', // Add Your Service Type Here
+                //Project Image - Add Your Project Image Here
+                imageSrc:"https://github.com/AnweshCR7/anweshcr7.github.io/blob/dev-react/src/assets/egv.png?raw=true",
+                //Project URL - Add Your Project Url Here
+                url:'https://www.beyondsports.nl'
             },
             {
                 id: 2,
@@ -78,12 +78,13 @@ export default
             {
                 name: 'LinkedIn',
                 url: 'https://www.linkedin.com/in/anwesh-marwade-87172211b',
-                img_src: "https://raw.githubusercontent.com/AnweshCR7/anweshcr7.github.io/e30e0126fd860292e04f0df34cd7a188084fe1d5/src/assets/linkedin.svg"
+                img_src: 'https://raw.githubusercontent.com/AnweshCR7/anweshcr7.github.io/e30e0126fd860292e04f0df34cd7a188084fe1d5/src/assets/linkedin.svg'
+            },
+            {
+                name: 'Medium',
+                url: 'https://medium.com/@anweshcr7',
+                img_src: ''
             }
-            // {
-            //     name: 'Instagram',
-            //     url: 'https://www.instagram.com/cv.uidesign/'
-            // }
 
         ]
     }
