@@ -250,16 +250,23 @@ li .link:hover{
 }
 
 .heading-background{
-  display: none;
+  position: fixed;
+  opacity: 0.25;
+  font-size: 28em;
+  left:-0.1em;
+  top:-0.5em;
+  z-index: -100;
+  color:darkslategrey;
 }
+
 nav{
   display: none;
 }
 .header-title{
-  font-size: 3em;
+  /* font-size: 3em; */
   text-align: left;
-  font-size: 4.5em;
-  top:1em;
+  font-size: 5em;
+  top:0.5em;
   /* left:1em;s */
 }
 .name {
@@ -285,7 +292,14 @@ nav{
   text-align: left;
   width: 300px;
 }
-
+.typing-quote{
+  position: relative;
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  text-align: left;
+  /* margin-top: 1em; */
+  color: #FFFF00;
+}
 .work{
   /* left:5em; */
   top:2em;
@@ -369,15 +383,46 @@ margin-right: 0em;
   top:2em;
 }
 
+.heading-background{
+  position: fixed;
+  opacity: 0.25;
+  font-size: 28em;
+  left:-0.1em;
+  top:-0.5em;
+  z-index: -100;
+  color:darkslategrey;
+}
+
 nav{
   display: none;
 }
 .header-title{
-  font-size: 3.6em;
   text-align: left;
-  top:3em;
-  left:1em;
+  font-size: 5em;
+  top:0.5em;
 }
+
+.about-content h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5em;
+  text-align: left;
+  color:whitesmoke;
+}
+.about-content p{
+  font-size: 1.3em;
+  text-align: left;
+  width: 37em;
+  color: whitesmoke;
+}
+.typing-quote{
+  position: relative;
+  font-family: 'Amatic SC', cursive;
+  font-size: 4.5em;
+  text-align: left;
+  /* margin-top: 1em; */
+  color: #FFFF00;
+}
+
 .about{
   position: relative;
   display: flex;
@@ -388,12 +433,21 @@ nav{
   display: none
 }
 .about-content{
-  /* left:6em; */
+  left:0em;
 }
 .about-content p{
   font-size: 3.5em;
   text-align: left;
-  width: 700px;
+  width: 600px;
+}
+
+.typing-quote{
+  position: relative;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+  text-align: left;
+  /* margin-top: 1em; */
+  color: #FFFF00;
 }
 
 .work{
@@ -434,7 +488,7 @@ height: 30em;
   padding: 2em;
 }
 .contact li a{
-  font-size: 2.5em;
+  font-size: 2em;
 }
 .footer{
   top:2em;
