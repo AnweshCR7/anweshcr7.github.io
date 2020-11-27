@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
 }
 .heading-background{
   position: fixed;
-  opacity: 0.25;
+  opacity: 0.5;
   font-size: 28em;
   left:-0.1em;
   top:-0.5em;
@@ -251,7 +251,7 @@ li .link:hover{
 
 .heading-background{
   position: fixed;
-  opacity: 0.25;
+  opacity: 0.5;
   font-size: 28em;
   left:-0.1em;
   top:-0.5em;
@@ -385,7 +385,7 @@ margin-right: 0em;
 
 .heading-background{
   position: fixed;
-  opacity: 0.25;
+  opacity: 0.50;
   font-size: 28em;
   left:-0.1em;
   top:-0.5em;
