@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../yourdata';
+import Typing from 'react-typing-animation';
 
 const quote = {
     marginLeft: '0em',
@@ -19,7 +20,14 @@ class About extends Component {
                     <p>{data.abouttext}</p>
                     <p>{data.abouttextGeneral}</p>
                     <p>{data.abouttextPersonal}</p>
-                    <img style={quote} src={data.phraseline}></img>
+                    {/* <img style={quote} src={data.phraseline}></img> */}
+                    <Typing>
+                        <span className='typing-quote'>
+                            <Typing.Speed ms={80} />
+                            <Typing.Delay ms={1000} />
+                            <span>Do Cool Things that Matter!</span>
+                        </span>
+                    </Typing>
             </Fade>
             </div>
             <div className='about-content'>

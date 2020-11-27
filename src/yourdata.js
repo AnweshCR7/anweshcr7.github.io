@@ -2,6 +2,7 @@ export default
     {
         //(Please Do Not Remove The comma(,) after every variable)
         //Change The Website Template
+        salutation: 'Hi, I am',
         name :'Anwesh Marwade.',
         headerTagline: [
                         
@@ -9,6 +10,7 @@ export default
                         
                         'Coding for Cause'
     ],
+        header_tags: ['Computer Vision.', 'Machine Learning.', 'Coding for Cause.'],
         contactEmail:'anweshcr7@gmail.com',
         // About Text
         phraseline:"https://github.com/AnweshCR7/anweshcr7.github.io/blob/dev-react/src/assets/about_quote_transparent.gif?raw=true",
@@ -82,7 +84,7 @@ export default
             },
             {
                 name: 'Medium',
-                url: 'https://medium.com/@anweshcr7',
+                url: 'https://medium.com/@anweshrm',
                 img_src: 'https://raw.githubusercontent.com/AnweshCR7/anweshcr7.github.io/e3b8419288a4ec74a925e6217782482f54f2f38d/src/assets/medium.svg'
             }
 

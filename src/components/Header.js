@@ -1,34 +1,48 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../yourdata'
+import Typing from 'react-typing-animation';
 
+const cursorStyle = {
+    color: '#1DE9B6'
+}
 
 class Header extends Component {
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = {
+            typing_flag: 0
+        }
+    }
+
+    reloadTypingComponent = (event) => {
+        this.setState({
+            typing_flag: Math.random()
+        });
     }
 
     render() {
         return (<div>
         <h1 className='heading-background'>VISION</h1>
-            {/* <header>
-                <h1>
-                    <Fade bottom cascade>{data.name}</Fade>
-                </h1>
-            </header> */}
             <Fade big>
                 <p className='name'>
-                    {data.name}</p>
-            </Fade>
-            <Fade bottom>
-            <p className='header-title'>
-            {data.headerTagline[0]}<br></br>
-            {data.headerTagline[1]}<br></br>
-            {/* {data.headerTagline[2]} */}
-               {/* <br></br>
-                    <button><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button> */}
+                    {data.salutation}<br/>
+                    {data.name}
                 </p>
+            </Fade>
+            <Fade>
+            <p className='header-title'>
+                <Typing cursor={'|'} key={this.state.typing_flag} onFinishedTyping={this.reloadTypingComponent} >
+                    {data.header_tags.map(function(tag)
+                        {   return (<span><Typing.Speed ms={50} />
+                            <Typing.Delay ms={800} />
+                            <span>{tag}</span>
+                            <Typing.Backspace count={20} delay={1500}/>
+                            </span>)
+                        }
+                    )}
+                </Typing>
+            </p>
             </Fade>
 
 
