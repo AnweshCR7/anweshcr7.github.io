@@ -23,7 +23,7 @@ class Header extends Component {
 
     render() {
         return (<div>
-        <h1 className='heading-background'>VISION</h1>
+        <h1 className='heading-background'>अन्वेष</h1>
             <Fade big>
                 <p className='name'>
                     {data.salutation}<br/>
