@@ -140,14 +140,14 @@ li .link:hover{
 .typing-quote{
   position: relative;
   font-family: 'Amatic SC', cursive;
-  font-size: 5.5em;
+  font-size: 4.5em;
   text-align: left;
-  top:1em;
   /* margin-top: 1em; */
   color: #FFFF00;
 }
 .about img{
   margin-left: 5em;
+  margin-top: 5em;
   max-width: 100%;
 }
 .work{

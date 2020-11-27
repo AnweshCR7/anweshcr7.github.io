@@ -21,13 +21,9 @@ class About extends Component {
                     <p>{data.abouttextGeneral}</p>
                     <p>{data.abouttextPersonal}</p>
                     {/* <img style={quote} src={data.phraseline}></img> */}
-                    <Typing>
-                        <span className='typing-quote'>
-                            <Typing.Speed ms={80} />
-                            <Typing.Delay ms={1000} />
-                            <span>Do Cool Things that Matter!</span>
-                        </span>
-                    </Typing>
+                        <p>
+                            <span className='typing-quote'>Do Cool Things that Matter!</span>
+                        </p>
             </Fade>
             </div>
             <div className='about-content'>
